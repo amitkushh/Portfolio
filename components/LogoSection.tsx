@@ -1,0 +1,37 @@
+"use client";
+
+import Image from "next/image";
+import Logo from "../public/logo.jpg";
+import BlueTick from "../public/tick.png";
+import DarkModeToggle from "./DarkModeToggle";
+
+function LogoSection() {
+  return (
+    <div className="flex justify-between">
+      <div className="flex justify-center items-center gap-4">
+        {/* Logo section */}
+        <div>
+          <Image
+            src={Logo}
+            width={64}
+            height={64}
+            alt="logo"
+            className="rounded-full border-2 border-orange-200 "
+          />
+        </div>
+        {/* Name Section */}
+        <div className="flex flex-col justify-center">
+          <h1 className="flex items-center gap-2 font-bold text-2xl text-white">
+            Amit <Image src={BlueTick} className="h-5 w-5" alt="tick" />
+          </h1>
+          <span className="text-gray-400 font-semibold">@amitkushh</span>
+        </div>
+      </div>
+      <div>
+        <DarkModeToggle />
+      </div>
+    </div>
+  );
+}
+
+export default LogoSection;

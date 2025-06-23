@@ -1,7 +1,19 @@
+"use client";
+
+import LogoSection from "@/components/LogoSection";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col justify-center items-center bg-[#1a1a1a] text-white font-semibold">
-      <p>Something Awesome is Coming Soon! </p>
+    <div className="relative min-h-screen overflow-hidden">
+      {/* Background */}
+      <div className="fixed inset-0 -z-10 min-h-screen w-full [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#ff0080_100%)]"></div>
+      <div className="px-5 py-20 lg:px-64 md:py-24">
+        <LogoSection />
+        <About />
+        <Skills />
+      </div>
     </div>
   );
 }
