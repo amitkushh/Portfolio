@@ -10,13 +10,6 @@ function About() {
           I'm a full-stack developer who enjoys building and exploring new
           projects. I'm especially passionate about creating AI-based solutions.
         </p>
-        <p className="text-gray-300 text-base">
-          I'm pursuing my BCA from a small institute in Chhapra, Bihar, which is
-          why I feel like I'm not truly part of a real college.
-        </p>
-        <p className="text-gray-300 text-base">
-          I have faith only in my skills.
-        </p>
       </div>
     </div>
   );
