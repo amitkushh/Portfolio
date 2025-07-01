@@ -4,7 +4,7 @@ function QuoteSection() {
     <div className="mt-16 ">
       <div>
         <h3 className="text-4xl font-bold text-gray-400">
-          Let’s build something worth more than just a commit history.
+          Let&apos;s build something worth more than just a commit history.
         </h3>
       </div>
     </div>
