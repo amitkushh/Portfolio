@@ -13,15 +13,13 @@ function LogoSection() {
       <div className="flex justify-center items-center gap-4">
         {/* Logo section */}
         <div>
-          <a href="/">
-            <Image
-              src={Logo}
-              width={64}
-              height={64}
-              alt="logo"
-              className="rounded-full border-2 border-orange-200 "
-            />
-          </a>
+          <Image
+            src={Logo}
+            width={64}
+            height={64}
+            alt="logo"
+            className="rounded-full border-2 border-orange-200 "
+          />
         </div>
       </div>
       <div>
