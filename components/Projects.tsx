@@ -16,26 +16,28 @@ function Projects() {
   const fullstack = [
     {
       title: "Wait working on project",
-      description: "wait",
+      description: "Wait working on project. This is Simple and Clean design",
       previewLink: "https://chai-code-landing-lac.vercel.app/",
       githubLink: "/",
     },
   ];
 
   return (
-    <div className="mt-12 space-y-4">
+    <div className="rounded-t-[40px] border-y border-gray-700 py-20 mt-20 px-5 md:px-60 space-y-2 flex flex-col items-center">
       <div>
-        <h2 className="text-white text-xl">Projects</h2>
+        <h2 className="text-white text-4xl font-semibold">Projects</h2>
       </div>
       <div>
-        <h3 className="text-white text-md">Frontend Projects</h3>
+        <h3 className="text-white text-2xl font-semibold mb-10">
+          Frontend Projects
+        </h3>
       </div>
       {/* Cards */}
       {/* Frontend */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {frontend.map((project, index) => (
           <div
-            className="rounded-md py-9 px-5 border-gray-500 border space-y-4"
+            className="rounded-md bg-[#0c0b0b] py-9 px-5 border-gray-700 border space-y-4"
             key={index}
           >
             <h3 className="text-white text-xl font-bold">{project.title}</h3>
@@ -52,13 +54,15 @@ function Projects() {
         ))}
       </div>
 
-      <div className="mt-10">
-        <h3 className="text-white text-md">Full Stack Projects</h3>
+      <div className="mt-15">
+        <h3 className="text-white text-2xl font-semibold mb-10">
+          Full Stack Projects
+        </h3>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
         {fullstack.map((project, index) => (
           <div
-            className="rounded-md py-9 px-5 border-gray-500 border space-y-4"
+            className="rounded-md bg-[#0c0b0b] py-9 px-5 border-gray-700 border space-y-4"
             key={index}
           >
             <h3 className="text-white text-xl font-bold">{project.title}</h3>

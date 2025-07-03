@@ -3,6 +3,23 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,
+body {
+  background-color: #000;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+}
+
+::selection {
+  background-color: #ffa500;
+  color: black;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -44,7 +61,7 @@
 }
 
 body {
-  font-family: inter, sans-serif;
+  font-family: var(--font-inter-tight), sans-serif;
 }
 
 :root {
