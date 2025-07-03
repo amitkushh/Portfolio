@@ -28,7 +28,7 @@ function About() {
           <p className="text-gray-300 text-base md:max-w-[700px] text-center md:text-start">
             At the age of 15, I started working in the internet world. I first
             worked on YouTube Channel, then got into blogging but later stopped.
-            Since June 2024, I've been focused on coding.
+            Since June 2024, I&apos;ve been focused on coding.
           </p>
         </div>
         <div className="mt-9">
