@@ -10,7 +10,6 @@ enum VaraintColor {
 const GlowButton = ({
   children,
   variant = VaraintColor.orange,
-  disableChevron = false,
   className,
 }: {
   children: React.ReactNode;
