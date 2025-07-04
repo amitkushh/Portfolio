@@ -9,7 +9,7 @@ import Linkedin from "@/icons/Linkedin";
 
 function LogoSection() {
   return (
-    <div className="px-5 flex justify-between items-center md:px-32">
+    <div className="px-5 flex justify-between items-center md:px-20 lg:px-32">
       <div className="flex justify-center items-center gap-4">
         {/* Logo section */}
         <div>

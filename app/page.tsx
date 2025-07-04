@@ -17,7 +17,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <QuoteSection />
-      <Social/>
+      <Social />
     </div>
   );
 }
