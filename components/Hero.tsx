@@ -12,7 +12,7 @@ const fadeInUpAnimation = {
     y: 0,
     transition: {
       staggerChildren: 0.3,
-      duration: 1,
+      duration: 0.6,
     },
   },
 };

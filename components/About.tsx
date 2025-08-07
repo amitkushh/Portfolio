@@ -22,7 +22,7 @@ function About() {
       y: 0,
       transition: {
         staggerChildren: 0.5,
-        duration: 1.5,
+        duration: 0.5,
       },
     },
   };

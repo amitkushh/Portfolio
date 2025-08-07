@@ -19,8 +19,8 @@ function Skills() {
       opacity: 1,
       y: 0,
       transition: {
-        staggerChildren: 0.2,
-        duration: 0.7,
+        staggerChildren: 0.1,
+        duration: 0.4,
       },
     },
   };

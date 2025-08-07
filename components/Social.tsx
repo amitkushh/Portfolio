@@ -23,8 +23,8 @@ function Social() {
       opacity: 1,
       y: 0,
       transition: {
-        staggerChildren: 0.5,
-        duration: 1.5,
+        staggerChildren: 0.3,
+        duration: 0.5,
       },
     },
   };
