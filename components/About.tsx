@@ -63,8 +63,7 @@ function About() {
             className="text-gray-300 text-base md:max-w-[700px] text-center md:text-start"
           >
             I&apos;m a full-stack developer who enjoys building and exploring
-            new projects. I&apos;m especially passionate about creating AI-based
-            solutions.
+            new projects.
           </motion.p>
           <motion.p
             variants={fadeInUpAnimation}

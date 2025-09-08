@@ -1,12 +1,12 @@
 "use client";
-import { ExternalLink } from "lucide-react";
-import Github from "@/icons/Github";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 import Image from "next/image";
 import ChaiCodeImg from "../public/chaicode.jpg";
 import PortfolioImg from "../public/portfolio.png";
+import LinkIcon from "@/icons/LinkIcon";
+import GithubIconSecond from "@/icons/GithubIconSecond";
 
 function Projects() {
   const controls = useAnimation();
@@ -37,7 +37,7 @@ function Projects() {
       description:
         "Landing Page Design in Next js. This is Simple and Clean design",
       previewLink: "https://chai-code-landing-lac.vercel.app/",
-      githubLink: "/",
+      githubLink: "https://github.com/amitkushh/chai-code-landing-page",
     },
     {
       img: PortfolioImg,
@@ -95,7 +95,7 @@ function Projects() {
           {frontend.map((project, index) => (
             <motion.div
               variants={fadeInUpAnimation}
-              className="border border-gray-800 rounded-md lg:h-[400px] lg:w-[281px] bg-[#0c0b0b] py-3 px-3 space-y-4"
+              className="border border-[#3e3b3b] rounded-md lg:h-[400px] lg:w-[281px] bg-[#0c0b0b] py-3 px-3 space-y-4"
               key={index}
             >
               <div>
@@ -111,10 +111,10 @@ function Projects() {
               <p className="text-gray-400">{project.description}</p>
               <div className="flex gap-2 items-center text-white">
                 <a href={project.githubLink} target="_blank">
-                  <Github />
+                  <GithubIconSecond />
                 </a>
                 <a href={project.previewLink} target="_blank">
-                  <ExternalLink height={25} width={25} />
+                  <LinkIcon />
                 </a>
               </div>
             </motion.div>
@@ -139,7 +139,7 @@ function Projects() {
           {fullstack.map((project, index) => (
             <motion.div
               variants={fadeInUpAnimation}
-              className="border border-gray-800 rounded-md lg:h-[229px] lg:w-[281px] bg-[#0c0b0b] py-9 px-5 space-y-4"
+              className="border border-[#3e3b3b] rounded-md lg:h-[229px] lg:w-[281px] bg-[#0c0b0b] py-9 px-5 space-y-4"
               key={index}
             >
               <h3 className="text-gray-300 text-xl font-bold">
@@ -148,10 +148,10 @@ function Projects() {
               <p className="text-gray-400">{project.description}</p>
               <div className="flex gap-2 items-center text-white">
                 <a href={project.githubLink} target="_blank">
-                  <Github />
+                  <GithubIconSecond />
                 </a>
                 <a href={project.previewLink} target="_blank">
-                  <ExternalLink height={25} width={25} />
+                  <LinkIcon />
                 </a>
               </div>
             </motion.div>

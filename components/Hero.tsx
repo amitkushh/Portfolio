@@ -43,8 +43,7 @@ function Hero() {
           className="text-gray-300 text-base md:text-[18px] md:max-w-[700px]"
         >
           I&apos;m a Full-stack developer who enjoys building and exploring new
-          projects. I&apos;m especially passionate about creating AI-based
-          solutions.
+          projects. With a passion for clean code and creative problem-solving.
         </motion.p>
       </div>
       <div className="mt-10">
