@@ -5,6 +5,7 @@ import { useEffect } from "react";
 import Image from "next/image";
 import ChaiCodeImg from "../public/chaicode.jpg";
 import PortfolioImg from "../public/portfolio.png";
+import BtnUi from "../public/btn-ui.png"
 import LinkIcon from "@/icons/LinkIcon";
 import GithubIconSecond from "@/icons/GithubIconSecond";
 
@@ -46,6 +47,14 @@ function Projects() {
         "The portfolio you are on right now is a simple and clean portfolio. I created it for myself.",
       previewLink: "https://portfolio-x2.vercel.app/",
       githubLink: "https://github.com/amitkushh/Portfolio",
+    },
+    {
+      img: BtnUi,
+      title: "Btn Ui - Sleek Buttons",
+      description:
+        "A minimal collection of Tailwind-powered buttons ready to use in your next project.",
+      previewLink: "https://www.btnui.xyz/",
+      githubLink: "https://github.com/amitkushh/BtnUI",
     },
   ];
 
